@@ -14,22 +14,32 @@ public class GoodsApp {
 		cup.price = 2000;
 		
 		//니콘추가
+		Goods camera = new Goods();
+		camera.name = "니콘";
+		camera.price = -400000;
+		
 		
 		////////////////////////////////////
 		//컴퓨터가격
 		System.out.println(computer.price);
 		
 		//컵이름
+		System.out.println(cup.name);
 		
 		//컴퓨터이름
+		System.out.println(computer.name);
 		
 		//컵가격
+		System.out.println(cup.price);
 		
 		//컴퓨터가격 --> 필요할때 불러와서 쓸수있다
+		System.out.println(computer.price);
 		
 		//카메라 이름
-		//카메라 가격
+		System.out.println(camera.name);
 		
+		//카메라 가격
+		System.out.println(camera.price);
 		
 	}
 

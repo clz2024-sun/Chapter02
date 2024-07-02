@@ -7,6 +7,7 @@ public class Goods {
 	private String name;
 	private int price;
 	
+	
 	//생성자
 
 	//메소드

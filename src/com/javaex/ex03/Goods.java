@@ -7,34 +7,33 @@ public class Goods {
 	private String name;
 	private int price;
 	
-	
 	//생성자
 
 	//메소드
 	//이름저장
-	public void setName(String n) {
-		name = n;
+	public void setName(String name) {
+		this.name = name;
 	}
 	
 	//이름읽기
 	public String getName() {
-		return name;
+		return this.name;
 	}
 	
 	//가격 저장
-	public void setPrice(int p) {
-		price = p;
+	public void setPrice(int price) {
+		this.price = price;
 	}
 	
 	//가격 읽기
 	public int getPrice() {
-		return price;
+		return this.price;
 	}
 	
 	//정보출력
 	public void showInfo() {
-	    System.out.println("상품이름 --> " + name);
-	    System.out.println("가격 --> " + price);
+	    System.out.println("상품이름 --> " + this.name);
+	    System.out.println("가격 --> " + this.price);
 	    System.out.println("-------------");
 	}
 	

@@ -8,7 +8,27 @@ public class Point {
 	private int y;
 
 	// 생성자
+	public Point() {}
 
+	
+	/* 아래 두개는 구별되지 않는다
+	public Point(int x) {
+		this.x = x;
+	}
+	
+	public Point(int y) {
+		this.y =y;
+	}
+	*/
+	
+	
+	public Point(int x, int y) {
+		this.x = x;
+		this.y =y;
+	}
+	
+	
+	
 	// 메소드
 	public int getX() {
 		return x;
@@ -24,6 +44,11 @@ public class Point {
 
 	public void setY(int y) {
 		this.y = y;
+	}
+
+	@Override
+	public String toString() {
+		return "Point [x=" + x + ", y=" + y + "]";
 	}
 
 	// 일반이름

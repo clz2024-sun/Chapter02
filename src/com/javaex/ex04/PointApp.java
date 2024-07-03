@@ -15,6 +15,11 @@ public class PointApp {
 		p01.draw();
 		p02.draw();
 
+		System.out.println("-------------------------");
+		/* 구별할수 없다
+		Point p03 = new Point(100); //x값만 세팅
+		Point p04 = new Point(500); //y값만 세팅
+		*/
 	}
 
 }

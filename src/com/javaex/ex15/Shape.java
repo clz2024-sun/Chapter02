@@ -38,7 +38,11 @@ public class Shape {
 		return "Shape [fillColor=" + fillColor + ", lineColor=" + lineColor + "]";
 	}
 	
-	
+	public void draw() {
+		System.out.println("====도형을 그렸습니다=========");
+		System.out.println("면색:" + fillColor + " 선색: " + lineColor);
+		System.out.println("================================");
+	}
 	
 	
 	

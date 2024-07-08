@@ -1,16 +1,16 @@
 package com.javaex.ex15;
 
-public class Rectangle extends Shape {
+public class Triangle extends Shape{
 
-	//필드
+	// 필드
 	private int width;
 	private int height;
-	
-	//생성자
-	public Rectangle() {
+
+	// 생성자
+	public Triangle() {
 	}
 
-	public Rectangle(int width, int height, String fillColor, String lineColor) {
+	public Triangle(int width, int height, String fillColor, String lineColor) {
 		
 		//부모필드가 private 일때
 		/*
@@ -50,12 +50,11 @@ public class Rectangle extends Shape {
 		this.height = height;
 	}
 
-	//메소드 일반
+	// 메소드 일반
 	@Override
 	public String toString() {
 		return "Rectangle [width=" + width + ", height=" + height + ", fillColor=" + fillColor + ", lineColor="
 				+ lineColor + "]";
 	}
-	
-	
+
 }

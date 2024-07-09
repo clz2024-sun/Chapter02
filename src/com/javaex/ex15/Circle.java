@@ -27,4 +27,11 @@ public class Circle extends Shape {
 		return "Circle [radius=" + radius + ", fillColor=" + fillColor + ", lineColor=" + lineColor + "]";
 	}
 
+	public void draw() {
+		System.out.println("====원을 그렸습니다=========");
+		System.out.println("반지름:" + radius);
+		System.out.println("면색:" + fillColor);
+		System.out.println("선색:" + lineColor);
+		System.out.println("================================");
+	}
 }

@@ -53,8 +53,16 @@ public class Triangle extends Shape{
 	// 메소드 일반
 	@Override
 	public String toString() {
-		return "Rectangle [width=" + width + ", height=" + height + ", fillColor=" + fillColor + ", lineColor="
+		return "Triangle [width=" + width + ", height=" + height + ", fillColor=" + fillColor + ", lineColor="
 				+ lineColor + "]";
 	}
-
+	
+	public void draw() {
+		System.out.println("====삼각형을 그렸습니다=========");
+		System.out.println("가로:" + width);
+		System.out.println("세로:" + height);
+		System.out.println("면색:" + fillColor);
+		System.out.println("선색:" + lineColor);
+		System.out.println("================================");
+	}
 }
